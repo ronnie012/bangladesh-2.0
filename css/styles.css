@@ -19,7 +19,6 @@
     text-align: left;
     margin-bottom: 0px;
 }
-
 .banner-container h1 {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -39,22 +38,16 @@
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
-
-    /* Frame 2 */
-    /* position: static; */
     width: 270px;
     height: 56px;
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 70px;
     padding: 17px 34px 17px 34px;
-
     border-radius: 8px;
     background: rgb(0, 106, 80);
-   
     margin-top: 0;
     margin-bottom: 90px;
     border: none;
