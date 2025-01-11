@@ -14,6 +14,41 @@
     margin: 100px 80px 100px 80px;
 }
 
+.newsletter-container {
+    width: 1040px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-wrap: wrap;
+    padding: 60px 30px 20px 20px;
+    background: rgb(198, 228, 214);
+    margin: 100px 80px 100px 80px;
+    border-radius: 24px;
+}
+
+.newsletter-container h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: top;
+    margin-top: 0px;
+}
+
+.newsletter-container p {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    text-wrap: wrap;
+}
+
 .banner-container h5 {
     color: rgba(14, 14, 14, 0.5);
     font-family: Fira Sans;
@@ -60,6 +95,7 @@
     border: none;
     cursor: pointer;
 }
+
 .btn-news {
     text-align: center;
     padding: 15px 25px;
@@ -73,6 +109,7 @@
     border-radius: 8px;
     cursor: pointer;
 }
+
 /* .button:hover {
     background-color: orange;
 } */
@@ -107,6 +144,10 @@
     gap: 24px;
 }
 
+/* #button:hover {
+    background-color: red;
+}; */
+
 .amount-card {
     width: 230px;
     height: 120px;
@@ -117,7 +158,11 @@
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    padding: 40px
+    padding: 40px;
+    cursor: pointer;
+    button:hover {
+        background-color: red;
+    };
 }
 
 .card-2 {
@@ -128,9 +173,48 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    outline: none;
+    border: none;
 }
-
+.wide-input-box-subscribe {
+    width: 610px;
+    height: 50px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+}
+.centered {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 0px; */
+    /* text-align: center; */
+    margin-bottom: 0px;
+    /* text-wrap: wrap; */
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.btn-subscribe {
+    text-align: center;
+    padding: 15px 25px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
 .wide-input-box {
     width: 75%;
     box-sizing: border-box;
@@ -185,6 +269,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .blue {
@@ -273,7 +358,39 @@
     padding: 11px 20px 11px 20px;
     margin: 0px;
 }
+.btn-hover {
+    button:hover {
+        box-shadow: 0 7px gray;
+        translateX: (5px);
+        background-color: orange;
+    };
+    button:active {
+        background-color: aquamarine;
 
+    }
+}
+#quote-bg-img {
+    background: url(/assets/quote-bg.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    /* padding: 30px; */
+}
+.quote-container {
+    box-sizing: border-box;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 48px 24px 48px 24px;
+    gap: 20px;
+    background-color: white;
+    padding: 22px 20px;
+    margin-left: 93px;
+    margin-right: 93px;
+    line-height: 22px;
+    /* height: 370px; */
+}
 .recent-news-container {
     box-sizing: border-box;
     border-radius: 25px;
@@ -288,9 +405,11 @@
     margin-right: 93px;
     height: 370px;
 }
+
 .recent-news-container {
     margin-bottom: 20px;
 }
+
 .recent-news-container-2 {
     box-sizing: border-box;
     border-radius: 25px;
@@ -305,10 +424,16 @@
     margin-right: 93px;
     height: 370px;
 }
+.recent-news-container-2 {
+    margin-bottom: 80px;
+}
+
+
 .img-satelite {
     border-radius: 25px;
     margin-top: 10px;
 }
+
 .recent-news {
     /* display: flex;
     flex-direction: row;
@@ -338,6 +463,13 @@
     letter-spacing: 0%;
     text-align: left;
 }
-.all-font-fira-sans h1, h5, p {
+
+.all-font-fira-sans h1,
+h5,
+p {
     font-family: Fira Sans;
+}
+.button:hover {
+    background-color: orange;
+    cursor: pointer;
 }
