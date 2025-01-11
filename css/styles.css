@@ -382,7 +382,7 @@
 }
 
 #quote-bg-img {
-    background: url(/assets/quote-bg.png);
+    background-image: url(/assets/quote-bg.png);
     background-position: 0px 0px;
     background-repeat: no-repeat;
 }
@@ -394,8 +394,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 48px 24px 48px 24px;
-    gap: 20px;
+    padding: 90px 30px 90px 24px;
+    gap: 0px;
     background-color: white;
     padding: 22px 20px;
     margin-left: 93px;
@@ -403,6 +403,13 @@
     line-height: 22px;
 }
 
+.p-bold {
+    font-weight: 600;
+}
+
+.time-stamp {
+    color: rgba(14, 14, 14, 0.7);
+}
 .recent-news-container {
     box-sizing: border-box;
     border-radius: 25px;
