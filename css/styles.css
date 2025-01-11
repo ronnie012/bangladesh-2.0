@@ -382,7 +382,7 @@
 }
 
 #quote-bg-img {
-    background-image: url(/assets/quote-bg.png);
+    background-image: url(../assets/quote-bg.png);
     background-position: 0px 0px;
     background-repeat: no-repeat;
 }
