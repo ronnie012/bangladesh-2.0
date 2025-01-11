@@ -1,3 +1,30 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 115px;
+    margin-right: 90px;
+    font-size: bolder;
+}
+
+.btn-sign-in {
+    width: 116px;
+    height: 52px;
+    background: rgb(235, 235, 235);
+    border-color: rgb(198, 228, 214);
+    border-radius: 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 11px 20px 11px 20px;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+}
+
 .body-bg-color {
     background-color: rgba(237, 237, 237, 0.618);
 }
@@ -11,7 +38,7 @@
     padding: 60px 30px 20px 20px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
-    margin: 100px 80px 100px 80px;
+    margin: 30px 80px 100px 80px;
 }
 
 .newsletter-container {
@@ -160,9 +187,12 @@
     background: rgb(255, 255, 255);
     padding: 40px;
     cursor: pointer;
+
     button:hover {
         background-color: red;
-    };
+    }
+
+    ;
 }
 
 .card-2 {
@@ -178,6 +208,7 @@
     outline: none;
     border: none;
 }
+
 .wide-input-box-subscribe {
     width: 610px;
     height: 50px;
@@ -187,6 +218,7 @@
     outline: none;
     padding-left: 30px;
 }
+
 .centered {
     color: rgba(14, 14, 14, 0.5);
     font-family: Fira Sans;
@@ -201,6 +233,7 @@
     margin-bottom: 0px;
     padding: 0px;
 }
+
 .btn-subscribe {
     text-align: center;
     padding: 15px 25px;
@@ -215,6 +248,7 @@
     border-bottom-right-radius: 8px;
     cursor: pointer;
 }
+
 .wide-input-box {
     width: 75%;
     box-sizing: border-box;
@@ -299,6 +333,8 @@
     cursor: pointer;
     padding: 11px 20px 11px 20px;
     margin: 0px;
+    font-family: Fira Sans;
+    color: rgb(255, 255, 255);
 }
 
 .green {
@@ -328,6 +364,8 @@
     cursor: pointer;
     padding: 11px 20px 11px 20px;
     margin: 0px;
+    font-family: Fira Sans;
+    color: rgb(255, 255, 255);
 }
 
 .yellow {
@@ -357,8 +395,11 @@
     cursor: pointer;
     padding: 11px 20px 11px 20px;
     margin: 0px;
+    font-family: Fira Sans;
+    color: rgb(255, 255, 255);
 }
-.btn-hover {
+
+/* .btn-hover {
     button:hover {
         box-shadow: 0 7px gray;
         translateX: (5px);
@@ -368,13 +409,14 @@
         background-color: aquamarine;
 
     }
-}
+} */
 #quote-bg-img {
     background: url(/assets/quote-bg.png);
     background-position: 0px 0px;
     background-repeat: no-repeat;
     /* padding: 30px; */
 }
+
 .quote-container {
     box-sizing: border-box;
     border-radius: 25px;
@@ -391,6 +433,7 @@
     line-height: 22px;
     /* height: 370px; */
 }
+
 .recent-news-container {
     box-sizing: border-box;
     border-radius: 25px;
@@ -424,6 +467,7 @@
     margin-right: 93px;
     height: 370px;
 }
+
 .recent-news-container-2 {
     margin-bottom: 80px;
 }
@@ -466,13 +510,17 @@
 
 .all-font-fira-sans h1,
 h5,
-p, footer {
+p,
+.navbar,
+footer {
     font-family: Fira Sans;
 }
+
 .button:hover {
     background-color: orange;
     cursor: pointer;
 }
+
 .footer {
     text-align: center;
     margin-left: 80px;
