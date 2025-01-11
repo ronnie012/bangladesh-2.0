@@ -1,6 +1,7 @@
 .body-bg-color {
     background-color: rgba(237, 237, 237, 0.618);
 }
+
 .banner-container {
     display: flex;
     flex-direction: row;
@@ -12,6 +13,7 @@
     background: rgb(198, 228, 214);
     margin: 100px 80px 100px 80px;
 }
+
 .banner-container h5 {
     color: rgba(14, 14, 14, 0.5);
     font-family: Fira Sans;
@@ -22,6 +24,7 @@
     text-align: left;
     margin-bottom: 0px;
 }
+
 .banner-container h1 {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -33,6 +36,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .btn-primary {
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
@@ -56,6 +60,7 @@
     border: none;
     cursor: pointer;
 }
+
 /* .button:hover {
     background-color: orange;
 } */
@@ -63,6 +68,7 @@
     height: 329px;
     margin-bottom: 50px;
 }
+
 .donate-title {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -72,6 +78,7 @@
     letter-spacing: 0%;
     text-align: center;
 }
+
 .donate-subtitle {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
@@ -81,11 +88,13 @@
     letter-spacing: 0%;
     text-align: center;
 }
+
 .amount-card-container {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
+
 .amount-card {
     width: 230px;
     height: 120px;
@@ -98,15 +107,18 @@
     background: rgb(255, 255, 255);
     padding: 40px
 }
+
 .card-2 {
     background-color: rgb(198, 228, 214);
 }
+
 .other-amount {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .wide-input-box {
     width: 75%;
     box-sizing: border-box;
@@ -119,6 +131,7 @@
     letter-spacing: 0%;
     text-align: center;
 }
+
 .donate-submit {
     text-align: center;
     padding: 15px 25px;
@@ -132,6 +145,7 @@
     border-radius: 8px;
     cursor: pointer;
 }
+
 .future-vision {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -142,6 +156,7 @@
     text-align: center;
     margin-bottom: 10px;
 }
+
 .future-vision-subtitle {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
@@ -151,6 +166,7 @@
     letter-spacing: 0%;
     text-align: center;
 }
+
 .future-vision-container {
     display: flex;
     flex-direction: row;
@@ -158,6 +174,7 @@
     align-items: center;
     margin-top: 50px;
 }
+
 .blue {
     background: rgba(84, 144, 245, 0.2);
     box-sizing: border-box;
@@ -175,6 +192,7 @@
     margin: 15px;
     border-radius: 8px;
 }
+
 .btn-blue {
     width: 122px;
     height: 41px;
@@ -185,6 +203,7 @@
     padding: 11px 20px 11px 20px;
     margin: 0px;
 }
+
 .green {
     background: rgb(198, 228, 214);
     box-sizing: border-box;
@@ -202,6 +221,7 @@
     margin: 15px;
     border-radius: 8px;
 }
+
 .btn-green {
     width: 122px;
     height: 41px;
@@ -212,6 +232,7 @@
     padding: 11px 20px 11px 20px;
     margin: 0px;
 }
+
 .yellow {
     background: rgb(247, 235, 207);
     box-sizing: border-box;
@@ -229,6 +250,7 @@
     margin: 15px;
     border-radius: 8px;
 }
+
 .btn-yellow {
     width: 122px;
     height: 41px;
@@ -238,4 +260,72 @@
     cursor: pointer;
     padding: 11px 20px 11px 20px;
     margin: 0px;
+}
+
+.recent-news-container {
+    box-sizing: border-box;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    gap: 20px;
+    background-color: white;
+    padding: 22px 20px;
+    margin-left: 93px;
+    margin-right: 93px;
+    height: 370px;
+}
+.recent-news-container {
+    margin-bottom: 20px;
+}
+.recent-news-container-2 {
+    box-sizing: border-box;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    gap: 20px;
+    background-color: white;
+    padding: 22px 20px;
+    margin-left: 93px;
+    margin-right: 93px;
+    height: 370px;
+}
+.img-satellite {
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.recent-news {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    text-align: left;
+    margin-left: 93px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.recent-news-headline {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.recent-news-details {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.all-font-fira-sans h1, h5, p {
+    font-family: Fira Sans;
 }
